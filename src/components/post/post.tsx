@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { ImageAnimate } from '../imgPreviuredAnimate/imageAnimate'
 import { User } from "../../models/User"
 import styles  from "./post.module.scss"
 import { PostModel } from '../../models/post'
@@ -58,7 +57,7 @@ export const Post = () => {
 
   useEffect(()=>{
     if(post){
-      fetch("http://localhost:3000/user/getUserId",{
+      fetch(`${url}user/getUserId`,{
         method  : "POST",
         headers : {
           "Content-Type"  : "application/json",

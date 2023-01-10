@@ -50,6 +50,7 @@ const EditorText = () =>{
   // }
 
   useEffect(()=>{
+    console.log("editor-create");
     setEditorState(new EditorJS(configuration("editor")))
   },[])
 
@@ -58,11 +59,6 @@ const EditorText = () =>{
   // },[])
   
   const url = process.env.REACT_APP_API
-
-  useEffect(()=>{
-
-  },[])
-
 
   const editorSave = () =>{
 
