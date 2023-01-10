@@ -32,7 +32,7 @@ export const ContainerPost = () => {
       }
     }
     
-    fetch("http://localhost:3000/Post/get-Post",{
+    fetch(`${url}Post/get-Post`,{
       method  : "POST",
       headers : {
         "Content-Type"  : "application/json"

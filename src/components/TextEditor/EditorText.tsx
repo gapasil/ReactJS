@@ -208,7 +208,7 @@ const EditorText = () =>{
           return
 
         } else {
-          ///document.location.href = `/post/${result}`
+          document.location.href = `/post/${result}`
         }
 
       })
