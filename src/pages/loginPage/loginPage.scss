@@ -1,0 +1,45 @@
+.containerLogin{
+
+    display : flex;
+    height  : 1000px;
+    justify-content: center;
+
+    &__loginBlock{
+
+        width  : 500px;
+        height : 500px;
+        border : 1px solid gray;
+        padding: 15px 15px 15px 15px;
+        background: white;
+        margin-top: 100px;
+        border-radius: 5px;
+
+        &__password{
+            margin-top: 15px;
+        }
+
+        &__login{
+            margin-top: 15px;
+        }
+
+        &__blockAuth{
+
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            flex-direction: column;
+
+            &__Button{
+                display: flex;
+                justify-content: center;
+                width: 200px;
+                margin-bottom: 30px;
+
+                button{
+                    margin-left: 0px;
+                }
+            }
+
+        }
+    }
+}

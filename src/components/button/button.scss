@@ -1,0 +1,118 @@
+@import "../../font/font.scss";
+
+.button1{
+    width: 100%;
+    max-width: 290px;
+    height: 60px;
+    background: #ffffff;
+    border: 5px solid rgb(175, 175, 175);
+    color: $color-text-light-body;
+    font-size: 1.125rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+    p{
+        color: $color-text-light-body;
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+    transition: 1s;
+}
+.button1:hover{
+    background: rgb(175, 175, 175)
+}
+
+.filterPost{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.div3{
+    display: inline-block;
+}
+
+.button3{
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    background: #EAEAEA;
+    height: 20px;
+    margin-left: 5px;
+    p{
+        display: inline-block;
+        color: #737373;
+        font-size: 14px;
+    }
+
+    transition: 1s;
+}
+.button3:hover{
+    background: rgb(175, 175, 175)
+}
+.button3active{
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    background: #AB68FF;
+    height: 20px;
+    margin-left: 5px;
+    p{
+        display: inline-block;
+        color: white;
+        font-size: 14px;
+    }
+
+    transition: 1s;
+}
+
+.button4{
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    height: 20px;
+    margin-left: 5px;
+    p{
+        display: inline-block;
+        color: #737373;
+        font-size: 14px;
+    }
+
+    transition: 1s;
+}
+.button4:hover{
+    background: rgb(175, 175, 175)
+}
+
+.button5{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    height: 40px;
+    background: #AB68FF;
+    margin-left: 5px;
+    p{
+        display: inline-block;
+        color: white;
+        font-family: $f2;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    svg{
+        margin-top: 3px;
+    }
+
+    transition: 1s;
+}
+.button5:hover{
+    background: rgb(175, 175, 175)
+}

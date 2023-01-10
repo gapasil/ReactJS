@@ -1,0 +1,36 @@
+.blockUser{
+    display: flex;
+    align-items: center;
+    max-width: 70px;
+    height: 35px;
+}
+
+.buttonUser{
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 0px;
+    width: 29px;
+    height: 29px;
+    background: white;
+    cursor: pointer;
+    &__img{
+        width: 29px;
+        height: 29px;
+        border-radius: 50%;
+    }
+}
+@media (max-width: 700px) {
+    .buttonUser{
+        margin-right: 10px;
+        border-radius: 50%;
+        border: 0px;
+        width: 35px;
+        background: white;
+        cursor: pointer;
+        img{
+            width: 29px;
+            height: 29px;
+            border-radius: 50%;
+        }
+    }
+}

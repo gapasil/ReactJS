@@ -1,0 +1,40 @@
+@import "../../variableScss/background.scss";
+
+.images{
+    width: 100%;
+    height: 100%;
+}
+.block{
+    background: whitesmoke;
+    margin: 10px 10px 10px 10px;
+    width: 200px;
+    height: 100%;
+
+    &__img{
+        position: relative;
+        height: 200px;
+        width : 200px;
+    }
+
+    &__img:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0; left: 0;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.601);
+    }
+    &__img:hover:after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0; left: 0;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    &__img:hover{
+        transform: scale(1.05);
+    }
+}

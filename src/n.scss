@@ -1,0 +1,69 @@
+@import "./font/font.scss";
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  font-family: $f;
+  margin: 0;
+}
+input {outline:none;}
+.App{
+  background: #E2E2E2;
+  min-height: 100vh;
+}
+p{
+  color: black;
+  font-size: 15px;
+}
+p:hover{
+  color: black;
+}
+button{
+  background: white;
+  border: 0px;
+  cursor: pointer;
+}
+a{
+  cursor: pointer;
+}
+.ant-picker-month-btn{
+  width: 20%;
+}
+.ant-picker-year-btn{
+  width: 20%;
+}
+.ant-picker{
+  margin-left: 5px;
+}
+textarea{
+  outline:none;
+}
+@font-face {
+  font-family: 'PT Astra Serif';
+  src: url("/src//font/PT-Astra-Serif_Regular.ttf") format('truetype');
+}

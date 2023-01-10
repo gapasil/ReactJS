@@ -1,0 +1,22 @@
+@import "../../font/font.scss";
+
+.containerHelp{
+
+    display : flex;
+    height  : 1050px;
+    justify-content: center;
+
+    &__titleBlock{
+
+        width  : 80%;
+        height : 1000px;
+        padding: 15px 15px 15px 15px;
+        background: rgb(210, 210, 210);
+        margin-top: 15px;
+
+        &__blockText{
+            margin-top: 50px;
+            color: $color-text-light-body
+        }
+    }
+}

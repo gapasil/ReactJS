@@ -1,0 +1,49 @@
+.containerReg{
+
+    display : flex;
+    height  : 1000px;
+    justify-content: center;
+
+    &__blockInput{
+
+        width  : 550px;
+        height : 60%;
+        border : 1px solid gray;
+        padding: 15px 15px 15px 15px;
+        background: white;
+        margin-top: 100px;
+        border-radius: 5px;
+
+        &__password{
+            margin-top: 15px;
+        }
+
+        &__login{
+            margin-top: 15px;
+        }
+
+        &__lastName{
+            margin-top: 15px;
+        }
+
+        &__buttonReg{
+            display   : flex;
+            margin-top: 10px;
+            justify-content: space-between;
+
+            &__button{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                width: 290px;
+                margin-left: 5px;
+            }
+
+            &__imgPreviy{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+        }
+    }
+}

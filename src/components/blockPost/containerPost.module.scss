@@ -1,0 +1,18 @@
+.containerPage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 860px;
+    margin-top: 2px;
+}
+.containerPost{
+    display: flex;
+    max-width: 860px;
+    margin-right: 5px;
+    margin-left:  5px;
+    width: 100%;
+    margin-top: 4px;
+    flex-direction: column;
+    padding: 0px 5px 5px 5px;
+}

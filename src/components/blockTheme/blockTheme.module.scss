@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    overflow: auto;
+    background: white;
+    border-radius: 5px;
+
+    &__blockTheme{
+      width: 90%;
+      height: 90%;
+    }
+}

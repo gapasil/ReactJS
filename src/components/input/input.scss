@@ -1,0 +1,66 @@
+@import "../../font/font.scss";
+
+.CustomInputBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgba(128, 128, 128, 0.596);
+    border-radius: 5px;
+    img{
+        margin-left : 5px;
+        width: 25px;
+        cursor: pointer;
+    }
+    input{
+        margin-left: 5px;
+        width: 100%;
+        height: 32px;
+        border: 0px;
+        border-radius: 5px;
+    }
+}
+.CustomInputBlock1{
+    width: 100%;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family: $f2;
+    box-shadow: inset 0px 1px 6px gray;
+    border: 0px;
+    border-radius: 6px;
+    max-width: 160px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    svg {
+        z-index: 100;
+    }
+    input{
+        background: rgba(0, 0, 0, 0);
+        width: 85%;
+        border: 0px;
+    }
+}
+.CustomInputBlock2{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    max-width: 400px;
+
+    img{
+        margin-left : 5px;
+        width: 25px;
+        cursor: pointer;
+    }
+    input{
+        width: 100%;
+        height: 40px;
+        border: 0px;
+        border-radius: 6px;
+    }
+}

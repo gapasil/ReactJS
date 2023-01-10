@@ -1,0 +1,20 @@
+.container{
+    width: 150px;
+    &__inputBlock{
+
+    }
+    &__containerUser{
+        &__blockUser{
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            cursor: pointer;
+            p{
+                margin: 5px 5px 5px 5px;
+            }
+            img{
+                width: 50%;
+            }
+        }
+    }
+}

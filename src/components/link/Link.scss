@@ -1,0 +1,94 @@
+@import "../../font/font.scss";
+
+.LinkButton1{
+    width: 100%;
+    max-width: 290px;
+    height: 60px;
+    background: #ffffff;
+    border: 5px solid rgb(175, 175, 175);
+    color: $color-text-light-body;
+    font-size: 1.125rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 auto;
+    text-decoration: none;
+    p{
+        color: $color-text-light-body;
+        font-size: 1.125rem;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    transition: 1s;
+}
+.LinkButton1:hover{
+    background: rgb(175, 175, 175)
+}
+.LinkButton2{
+    width: 100%;
+    max-width: 150px;
+    height: 30px;
+    border: 1px solid #AB68FF;
+    border-radius: 5px;
+    box-shadow:0px 2px 5px #AB68FF;
+    color: $color-text-light-body;
+    font-size: 1.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+    text-decoration: none;
+    p{
+        color: #AB68FF;
+        font-size: 1.125rem;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    transition: 0.5s;
+}
+.LinkButton2:hover{
+    background: #AB68FF;
+    p{
+        color: white;
+    }
+}
+.LinkButton3{
+    width: 100%;
+    max-width: 180px;
+    height: 28px;
+    border-radius: 5px;
+    box-shadow:0px 2px 5px #AB68FF;
+    color: $color-text-light-body;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #AB68FF;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: $f2;
+
+    p{
+        display: flex;
+        align-items: center;
+        height: 19px;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    transition: 0.5s;
+}
+.LinkButton3:hover{
+    background: white;
+    p{
+        color: #AB68FF;
+    }
+    svg * {
+        color: #AB68FF;
+        fill: #AB68FF;
+    }
+}
