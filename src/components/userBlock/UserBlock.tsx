@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAppDispatch, useAppSelector } from '../../hooks/redux'
 import { MenuUserBlock } from './menu/MenuUserBlock'
-import Notification from "../../images/Notification.svg"
+import Notification from "../../images/notification.svg"
 import style from "./userBlock.module.scss"
 import { menuUserSlice } from '../../store/reducers/MenuUser'
 
