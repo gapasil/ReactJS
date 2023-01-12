@@ -35,7 +35,7 @@ export const LoginPage = ({callBack}: login) => {
       if(result.token){
         localStorage.setItem("token", result.token)
         callBack()
-        navigate("/help-specification")
+        navigate("/")
       } else {
         if(!result.message){
           setError([result])
