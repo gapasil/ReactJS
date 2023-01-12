@@ -22,10 +22,15 @@ export const MenuUserBlock = () => {
     }
   },[activeMenu])
 
-  if(activeMenu.active)
-  {
-    return (
-      <div className={styles.containerMenu} ref={focusMenu} onBlur={()=>dispatch(UnActiveMenuUser())} tabIndex={0}>
+  const blurDivDecorator: React.FocusEventHandler<HTMLDivElement> = (e: React.FocusEvent<HTMLDivElement, Element>) =>{
+    if(e.relatedTarget?.id != "exit-account")
+    {
+      dispatch(UnActiveMenuUser())
+    }
+  }
+
+  return (
+      <div className={activeMenu.active?styles.containerMenu:styles.none} ref={focusMenu} onBlur={blurDivDecorator} tabIndex={0}>
         <div className={styles.containerMenu__containerlink}>
           {/* <Link to="/" className={styles.containerMenu__containerlink__logo}>
             <img src='https://i.pinimg.com/736x/e9/e2/78/e9e2787d0cb55d570fe1c76843506759.jpg' width="100%"/>
@@ -39,18 +44,11 @@ export const MenuUserBlock = () => {
             <img src={setting}/>
             <p>Настроики</p>
           </Link>
-          <button onClick={()=>{window.location.reload();localStorage.setItem("token","")}}>
+          <button id='exit-account' onClick={()=>{window.location.reload();localStorage.setItem("token","")}}>
             <img src={exit}/>
             <p>Выйти из аккаунта</p>
           </button>
         </div>
       </div>
-    )
-  } else {
-    return (
-      <div>
-
-      </div>
-    )
-  }
+  )
 }

@@ -32,6 +32,7 @@ export const Post = () => {
         idMass.push(window.location.pathname[index])
       }
     }
+
     
     const idPost = idMass.join("");
     
